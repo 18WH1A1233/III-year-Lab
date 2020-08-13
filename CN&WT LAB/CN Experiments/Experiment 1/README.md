@@ -12,5 +12,5 @@ i.character count ii. character stuffing and iii. bit stuffing
 
 ### Output
 
-![output]()
+![output](backgroundimage.jpg)
 
