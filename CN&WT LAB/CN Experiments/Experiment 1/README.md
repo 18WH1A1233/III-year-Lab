@@ -6,11 +6,14 @@ i.character count ii. character stuffing and iii. bit stuffing
 
 ### step by step procedure of experiment
 1.
+
 2.
+
 3.
+
 4.
 
 ### Output
 
-![output](backgroundimage.jpg)
+![output](EXP1.png)
 
