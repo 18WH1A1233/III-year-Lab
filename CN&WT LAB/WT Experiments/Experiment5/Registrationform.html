@@ -1,0 +1,85 @@
+<head>
+	<style>
+
+		body{
+			/*width: 100%;
+			height: 100%;*/
+			background: url('your-url') no-repeat center;
+			background-size: 100% 100%;
+			background-position: top center;
+			background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/beach-ocean-virtual-zoom-background-design-template-fa576da0b0c34886c431b750eafd8909.jpg?ts=1587157409');
+		}
+		.btn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 16px 20px;
+			border: none;
+			cursor: pointer;
+			width: 18%;
+			opacity: 0.9;
+		}
+
+		.btn:hover {
+			opacity: 1;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<fieldset>
+		
+			<form>
+			<h1 style="text-align: center; color:#FF5733 ">REGISTER</h1>
+				
+				<div class="input-group">
+					<input placeholder="Enter First Name" type="text" class="form-control" name="firstName"
+					required>
+				</div>
+				<br>
+				<div class="input-group">
+					<input placeholder="Enter Last Name" type="text" class="form-control" name="lastName"
+					required>
+				</div>
+				<br>
+				<div class="input-group">
+					
+					<p>Gender :</p><br>
+					<input type="radio" name="male"/> Male <br>
+					<input type="radio" name="female"/> Female <br>
+					<input type="radio" name="other"/> Other<br><br>
+				</div>
+				
+			<form>
+				<label for="DOB">DOB:</label>
+				<input type="date" id="DOB" name="DOB">
+				<input type="submit">
+			</form>
+			<p for="img">Select image:</p>
+			<input type="file" id="img" name="img" accept="image/*"><br>
+			<p for="hobbies">Hobbies</p>
+			<input type="checkbox" id="hobbies" name="dancing" value="dancing"> Dancing<br>
+			<input type="checkbox" id="hobbies" name="reading" value="reading"> Reading<br>
+			<input type="checkbox" id="hobbies" name="swimming" value="swimming"> Swimming<br><br>
+			<p>Address</p>
+			<textarea cols="22" rows="5" value="address"></textarea><br><br/>  
+			<div class="input-group">
+				<input class="form-control" type="number" placeholder="Enter Phone" name="phone"  required pattern="[789][0-9]{9}">
+			</div><br>
+			<div class="input-group">
+				<input class="form-control" type="email"  name="username"  required pattern="[^ @]*@[^ @]*"placeholder="Enter Email Address">
+			</div><br>
+			<div class="input-group">
+				<input class="form-control" type="password" name="password"  placeholder="Enter password"required>
+			</div><br>
+			<div class="input-group">
+				<input class="form-control" type="password" placeholder="Re-enter Password" name="confpassword"
+					id="confPass" required>
+			</div><br/>
+			<button type="button" class="btn">Register</button>
+
+		</form>
+	</div>
+
+	</fieldset>
+</body>
